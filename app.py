@@ -54,7 +54,7 @@ class DataParser:
 class ChatHandler:
     def __init__(self):
         self.messages = []
-        self.groq_api_key = "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"
+        self.groq_api_key = "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"
         self.groq_api_base = "https://api.groq.com"
         self.model_name = "llama-3.1-8b-instant"
         self.data_parser = DataParser()
