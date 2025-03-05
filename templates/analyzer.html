@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Analyzer - Chat Interface</title>
+    <link rel="stylesheet" href="static/css/page2.css">
+</head>
+<body>
+
+
+    <div class="analyzer-container">
+        <div class="chat-section">
+            <div class="chat-messages" id="chatMessages">
+                <div class="message bot-message">
+                    Hello! I'm your social media analyzer. Ask your queries related to your past or future posts.
+                </div>
+            </div>
+            <div class="input-container">
+                <textarea id="userInput" placeholder="Type your message here..."></textarea>
+                <button id="sendButton" class="send-btn">Send</button>
+            </div>
+        </div>
+        <div class="visualization-section" id="visualizationSection">
+            <div class="viz-container" id="visualizationContainer">
+                <!-- Graphs will be dynamically inserted here -->
+            </div>
+        </div>
+    </div>
+    <script src="static/js/main.js"></script>
+</body>
+</html>
